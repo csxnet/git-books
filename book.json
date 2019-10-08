@@ -1,0 +1,27 @@
+{
+  "title": "教程帮助",
+  "language": "zh-hans",
+  "plugins": [
+    "-sharing",
+    "-lunr",
+    "-search",
+    "-highlight",
+    "-livereload",
+
+    "search-plus",
+    "prism",
+    "prism-themes",
+    "expandable-chapters-small"
+  ],
+  "pluginsConfig": {
+    "theme-default": {
+      "showLevel": true
+    },
+    "prism": {
+      "css": ["prism-themes/themes/prism-base16-ateliersulphurpool.light.css"]
+    }
+  },
+  "styles": {
+    "website": "styles/website.css"
+  }
+}
